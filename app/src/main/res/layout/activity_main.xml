@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative_layout"
+    android:focusableInTouchMode="true">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/show_name"
+        android:inputType="text"
+        android:ellipsize="end"
+        android:layout_alignParentTop="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pwd"
+        android:hint="@string/show_pwd"
+        android:inputType="textPassword"
+        android:ellipsize="end"
+        android:layout_below="@+id/name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="39dp"
+        android:layout_marginEnd="39dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pwd"
+        >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="@string/btnRegister" />
+    </LinearLayout>
+</RelativeLayout>

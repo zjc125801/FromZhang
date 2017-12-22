@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <com.zjc.demoapp.TitleLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </com.zjc.demoapp.TitleLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a normal activity"/>
+
+    <Button
+        android:id="@+id/normal_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回" />
+
+    <Button
+        android:id="@+id/button_hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_button"
+        android:text="缓存圈"/>
+
+    <ProgressBar
+        android:id="@+id/progress_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="loging弹出框"
+        android:id="@+id/dialog_button"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview_button"
+        android:text="ListView"/>
+
+
+</LinearLayout>

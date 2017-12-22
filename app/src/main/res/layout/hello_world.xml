@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:lineSpacingExtra="30sp"
+        android:text="Hello  world !"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="monospace"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/back"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:lineSpacingExtra="12sp"
+        android:text="返回登录页"
+        android:textSize="18sp"
+        android:layout_below="@+id/button_finish"
+        android:layout_alignLeft="@+id/button_finish"
+        android:layout_alignStart="@+id/button_finish" />
+
+    <Button
+
+        android:id="@+id/button_finish"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="18sp"
+        android:text="finish"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="18dp" />
+
+    <Button
+        android:id="@+id/button_baidu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="百度一下"
+        android:layout_below="@+id/back"
+        android:layout_alignLeft="@+id/back"
+        android:layout_alignStart="@+id/back" />
+
+    <Button
+        android:id="@+id/button_tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_baidu"
+        android:layout_marginTop="20dp"
+        android:text="10086" />
+
+
+</RelativeLayout>
